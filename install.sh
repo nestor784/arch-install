@@ -48,11 +48,6 @@ read -p "Press any key to resume ..."
 sudo pacman -S xorg-server weston xorg-server-xwayland libx11 libxft libxinerama libxrandr libxss xorg-apps xorg-xinit xorg-xmessage pkgconf xorg-twm xorg-setxkbmap && echo "Test xorg download succeeded" || echo "Command failed"
 read -p "Press any key to resume ..."
 
-echo -e "Section \"InputClass\"\n\t\tIdentifier \"system-keyboard\"\n\t\tMatchIsKeyboard \"on\"\n\t\tOption \"XkbLayout\" \"latam\"\n\t\tOption \"XkbVariant\" \",winkeys\"\nEndSection" >| /etc/X11/xorg.conf.d/00-keyboard.conf && echo "KBOARD XORG succeeded" || echo "Command failed"
-read -p "Press any key to resume ..."
-
-echo -e "Section \"OutputClass\"\n\tIdentifier \"AMD\"\n\tMatchDriver \"amdgpu\"\n\tDriver \"amdgpu\"\nEndSection" >| /etc/X11/xorg.conf.d/20-amdgpu.conf && echo "AMD XORG succeeded" || echo "Command failed"
-read -p "Press any key to resume ..."
 
 # Paquetes básicos
 sudo pacman -S bash-completion pkgstats bc mlocate neofetch htop zip unzip p7zip jq wget && echo "Some packages downloaded succeeded" || echo "Command failed"

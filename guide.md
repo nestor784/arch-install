@@ -55,7 +55,7 @@ swapon /dev/sda2 # swap
 ```
 2. Instalación de paquetes base con pacstrap.
 ```sh
-pacstrap /mnt linux linux-firmware sof-firmware neovim base-devel grub efibootmgr networkmanager
+pacstrap /mnt linux linux-firmware sof-firmware neovim base base-devel grub efibootmgr networkmanager
 ```
 3. Configuración desde instalador 
 ```sh
