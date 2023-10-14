@@ -55,4 +55,4 @@ read -p "Press any key to resume ..."
 
 # Aplicaciones
 yay -S vlc rhythmbox epdfview qutebrowser networkmanager-dmenu-git && echo "APPS succeeded" || echo "Command failed"
-sudo pacman -S thunar zathura leafpad nitrogen viewnior kitty && echo "APPS succeeded" || echo "Command failed"
+sudo pacman -S thunar zathura leafpad viewnior kitty && echo "APPS succeeded" || echo "Command failed"
