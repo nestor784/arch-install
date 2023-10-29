@@ -11,4 +11,3 @@ echo -e "exec qtile start" >> ${HOME}/.xinitrc
 sudo chown -R nestor:users ${HOME}/.xinitrc
 sudo chown -R nestor:users ${HOME}/.config
 
-yay -S - < ${master}/etc/pkgdistro.txt

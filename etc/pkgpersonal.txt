@@ -3,6 +3,7 @@ rhythmbox
 viewnior
 firefox
 ranger
+python-pillow
 epdfview
 bash-completion
 neofetch

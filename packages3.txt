@@ -26,8 +26,6 @@ texlive-latexextra
 timeshift
 tk
 tumbler
-ueberzug
-vicious
 wipe
 zathura
 zathura-pdf-poppler
