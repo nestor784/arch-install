@@ -1,0 +1,15 @@
+brightnessctl
+dunst
+feh
+kitty
+lsd
+neofetch
+neovim
+networkmanager-dmenu-git
+picom
+qtile
+qtile-extras
+rofi
+sddm
+sxlock-git
+vivid

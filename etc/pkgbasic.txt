@@ -1,0 +1,17 @@
+systemd-sysvcompat
+man-db
+man-pages
+texinfo
+libmtp
+gvfs-mtp
+pkgstats
+bc
+mlocate
+zip
+unzip
+p7zip
+jq
+wget
+awk
+htop
+cpupower

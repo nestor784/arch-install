@@ -1,0 +1,12 @@
+cairo
+fontconfig
+freetype2
+noto-fonts-emoji
+gohufont
+figlet
+lolcat
+ttf-fira-code
+ttf-hack
+toilet
+toilet-fonts
+cowsay
