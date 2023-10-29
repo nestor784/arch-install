@@ -3,8 +3,9 @@ rhythmbox
 viewnior
 firefox
 ranger
+poppler
 python-pillow
-epdfview
+mupdf
 bash-completion
 neofetch
 spotify
@@ -15,10 +16,6 @@ dosfstools
 dnsmasq
 cdrdao
 cdrtools
-virt-manager
-libgovirt
-qemu-base
-qemu-img
 liblsp-r3d-glx-lib
 libmtp
 libsixel

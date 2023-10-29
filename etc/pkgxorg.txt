@@ -31,13 +31,10 @@ xorg-xrandr
 xorg-xrefresh
 xorg-xsetroot
 xorg-xvinfo
-xorg-xwayland
 xorg-xwd
 xorg-xwininfo
 xorg-xwud
 xterm
-weston
-xorg-server-xwayland
 libx11
 libxft
 libxinerama

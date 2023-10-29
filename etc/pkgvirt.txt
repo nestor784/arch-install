@@ -1,0 +1,4 @@
+virt-manager
+libgovirt
+qemu-base
+qemu-img

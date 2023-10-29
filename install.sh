@@ -6,6 +6,8 @@ master=$(dirname $(readlink -fm "$0"))
 
 sudo cp -rf ${master}/etc/00-keyboard.conf /etc/X11/xorg.conf.d/00-keyboard.conf
 sudo cp -rf ${master}/etc/20-amdgpu.conf /etc/X11/xorg.conf.d/20-amdgpu.conf
+sudo cp -rf ${master}/etc/bash_profile ${HOME}/.bash_profile
+sudo cp -rf ${master}/etc/bashrc ${HOME}/.bashrc
 head -n -5 /etc/X11/xinit/xinitrc > ${HOME}/xinitrc.tmp && mv ${HOME}/xinitrc.tmp ${HOME}/.xinitrc
 echo -e "exec qtile start" >> ${HOME}/.xinitrc
 sudo chown -R nestor:users ${HOME}/.xinitrc
