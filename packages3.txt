@@ -18,7 +18,6 @@ python-pynvim
 python-virtualenv
 qemu-base
 qemu-img
-rofi-emoji
 sddm-sugar-dark
 sleuthkit
 spicetify-cli

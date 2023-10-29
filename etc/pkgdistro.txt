@@ -10,6 +10,7 @@ picom
 qtile
 qtile-extras
 rofi
+rofi-emoji
 sddm
 sxlock-git
 vivid
