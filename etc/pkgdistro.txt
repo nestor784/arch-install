@@ -8,6 +8,10 @@ neovim
 networkmanager-dmenu-git
 picom
 qtile
+python-dbus-next
+python-iwlib
+python-psutil
+python-pulsectl-asyncio
 qtile-extras
 rofi
 rofi-emoji

@@ -1,4 +1,6 @@
 systemd-sysvcompat
+tk
+wipe
 man-db
 man-pages
 texinfo
