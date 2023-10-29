@@ -8,13 +8,13 @@ git clone --depth=1 https://github.com/nestor784/dotfiles.git ${dotfiles}
 
 # QTILE
 if [ -d "$DIR_QTILE" ];then
-	rm -rf .config/qtile/*
+	rm -rf ${DIR_QTILE}
 fi
 cp -rf ${HOME}/dotfiles/.config/qtile/ ${DIR_QTILE}
 
 # ROFI
 if [ -d "$DIR_ROFI" ];then
-	rm -rf .config/rofi/*
+	rm -rf ${DIR_ROFI}
 fi
 FONT_DIR="$HOME/.local/share/fonts"
 if [[ -d "$FONT_DIR" ]];then 
@@ -41,3 +41,24 @@ sddm --example-config > ${HOME}/tmpfile
 sudo mv ${HOME}/tmpfile /etc/sddm.conf
 sudo sed -i "/Current=/ s/=/=sugar-dark/" /etc/sddm.conf
 sudo systemctl enable sddm.service
+
+# DUNST
+DIR_DUNST="$HOME/.config/dunst/"
+if [ -d "$DIR_DUNST" ];then
+	rm -rf ${DIR_DUNST}
+fi
+mkdir ${DIR_DUNST}
+
+# PICOM
+DIR_PICOM="$HOME/.config/picom/"
+if [ -d "$DIR_PICOM" ];then
+	rm -rf ${DIR_PICOM}
+fi
+mkdir ${DIR_PICOM}
+
+# KITTY
+DIR_KITTY="$HOME/.config/kitty/"
+if [ -d "$DIR_KITTY" ];then
+	rm -rf ${DIR_KITTY}
+fi
+cp -rf ${HOME}/dotfiles/.config/kitty ${DIR_KITTY}

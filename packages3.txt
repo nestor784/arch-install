@@ -16,12 +16,7 @@ python-psutil
 python-pulsectl-asyncio
 python-pynvim
 python-virtualenv
-qemu-base
-qemu-img
-sddm-sugar-dark
 sleuthkit
-spicetify-cli
-spicetify-themes-git
 texlive-basic
 texlive-bibtexextra
 texlive-binextra
@@ -33,7 +28,6 @@ tk
 tumbler
 ueberzug
 vicious
-w3m
 wipe
 zathura
 zathura-pdf-poppler

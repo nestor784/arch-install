@@ -2,7 +2,7 @@ vlc
 rhythmbox
 viewnior
 firefox
-lf
+ranger
 epdfview
 bash-completion
 neofetch
@@ -16,6 +16,8 @@ cdrdao
 cdrtools
 virt-manager
 libgovirt
+qemu-base
+qemu-img
 liblsp-r3d-glx-lib
 libmtp
 libsixel
