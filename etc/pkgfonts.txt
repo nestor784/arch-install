@@ -5,8 +5,11 @@ noto-fonts-emoji
 gohufont
 figlet
 lolcat
-ttf-fira-code
-ttf-hack
+ttf-firamono-nerd
+ttf-firacode-nerd
+ttf-iosevka-nerd
+ttf-hack-nerd
+ttf-jetbrains-mono-nerd
 toilet
 toilet-fonts
 cowsay
