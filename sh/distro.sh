@@ -1,10 +1,10 @@
 #!/bin/bash
-yay -S - < ${master}/etc/pkgdistro.txt
-
 master=$(dirname $(dirname $(readlink -fm "$0")))
 dotfiles="$HOME/dotfiles"
 DIR_QTILE="$HOME/.config/qtile/"
 DIR_ROFI="$HOME/.config/rofi/"
+
+yay -S - < ${master}/etc/pkgdistro.txt
 
 git clone --depth=1 https://github.com/nestor784/dotfiles.git ${dotfiles}
 
