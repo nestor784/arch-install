@@ -161,14 +161,17 @@ Configuración del teclado y gráficos
 Esta es la lista de mis aplicaciones personales:
 * vlc (Repreductor video)
 * rhythmbox (Repreductor audio)
-* epdfview (Visor de PDF)
-* qutebrowser (Explorador)
+* mupdf & zathura (Visor de PDF)
+* firefox (Explorador)
 * networkmanager-dmenu-git (Centro de redes)
-* thunar (Gestor de archivos)
-* leafpad (Lector de texto)
+* ranger (Gestor de archivos)
+* neovim (Lector de texto)
 * viewnior (Visor de imagenes)
 * kitty (Terminal)
-* zathura (Visor de PDF)
+* spotify (Streaming Music)
+* brightnessctl (Controlador)
+* dunst (Notification manager)
+* picom (Composer)
 
 
 ## WM Qtile Installation
